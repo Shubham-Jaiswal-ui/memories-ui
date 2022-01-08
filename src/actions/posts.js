@@ -1,4 +1,3 @@
-import { formatMs } from "@material-ui/core";
 import * as api from "../api";
 import { CREATE, FETCH_ALL, UPDATE, DELETE } from "../constants/actionConstant";
 export const getPosts = () => async (dispatch) => {
